@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+catboost
+reportlab
+requests
+opencv-python
+nltk
+transformers
+nbformat
+nbconvert
