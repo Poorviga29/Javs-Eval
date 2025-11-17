@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-17T18:09:18.955969",
+  "metrics": {
+    "accuracy": 0.685,
+    "f1": 0.6415072221059241
+  },
+  "score": 0.7143,
+  "logs": "rf: mean_f1=0.4902 std=0.0495\net: mean_f1=0.5547 std=0.0413\nsvc: mean_f1=0.5053 std=0.0534\ngb: mean_f1=0.4903 std=0.0629\nxgb: mean_f1=0.5431 std=0.0627\nlgb: mean_f1=0.4780 std=0.0623\nTop models: ['et', 'xgb', 'svc']\nTuned et: best_score=0.5410\nTuned svc: best_score=0.5513\nTuned xgb: best_score=0.5589\nStacking ensemble trained.",
+  "model_comparison": {
+    "rf": {
+      "mean_f1": 0.49024338454514177,
+      "std_f1": 0.04949810184146671
+    },
+    "et": {
+      "mean_f1": 0.5547121785980046,
+      "std_f1": 0.0412945840431076
+    },
+    "svc": {
+      "mean_f1": 0.5053171705217177,
+      "std_f1": 0.05335891432083481
+    },
+    "gb": {
+      "mean_f1": 0.49025594749973356,
+      "std_f1": 0.0628940952925347
+    },
+    "xgb": {
+      "mean_f1": 0.5431112609609889,
+      "std_f1": 0.06271683916257213
+    },
+    "lgb": {
+      "mean_f1": 0.4779841474000654,
+      "std_f1": 0.062260803514527445
+    }
+  },
+  "chosen_model": {
+    "meta": "LogisticRegression",
+    "bases": [
+      "et",
+      "xgb",
+      "svc"
+    ]
+  }
+}
